@@ -18,7 +18,12 @@ To run the binary:
 $ ./quine
 ```
 
-To remove the binary file:
+To check the difference between the source code and the output of the code:
+```
+$ make check
+```
+
+To remove the binary files:
 ```
 $ make clean
 ```
