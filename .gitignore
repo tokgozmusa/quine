@@ -1,5 +1,4 @@
 *.o
 quine
 output_source.c
-output_source.o
 output_source
