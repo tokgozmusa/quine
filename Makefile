@@ -1,8 +1,8 @@
-SOURCE=quine.c
-BIN=./quine
+SOURCE = quine.c
+BIN = ./quine
 
 compile:
-	gcc -Wall quine.c -o quine
+	gcc -Wall $(SOURCE) -o $(BIN)
 
 clean:
 	rm -f $(BIN) || true
